@@ -1,0 +1,58 @@
+body {
+  text-align: start;
+  color: #333;
+  background: whitesmoke;
+  background-size: auto;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Orbitron", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Space Mono", monospace;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.projects {
+  width: 80%;
+  margin: auto;
+}
+.project {
+  border: 2px solid;
+  padding: 14px 20px;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  background: linear-gradient(#fffbe9, #fefbe9);
+  display: flex;
+  align-items: end;
+}
+
+#connect-wallet {
+  border: 2px solid;
+  background-color: #61764b;
+  border-radius: 5px;
+  padding: 5px 8px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.hero {
+  color: #333;
+}
+
+.project-button button {
+  background-color: #61764b;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+.project-button button:hover {
+  background-color: #5a8a26;
+  transition: all 1s;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
